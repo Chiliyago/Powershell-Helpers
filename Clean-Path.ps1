@@ -1,4 +1,18 @@
-﻿
+﻿<#
+    .SYNOPSIS
+    Returns the items in your Environment PATH variable.
+    Tests and reports the existance of each Path
+    Sorts the items in the PATH variable by file path.
+    Optionally Will update the PATH variable with one that is sorted.
+
+    .EXAMPLE
+    Clean-Path -update $false
+    Clean-Path -update $true
+
+    .PARAMETER
+    $true if you want to update your Path with the results of this processing.  Otherwise you just get output.
+#>
+
 Function global:Clean-Path()
 {
     [Cmdletbinding()]
