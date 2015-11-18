@@ -1,7 +1,7 @@
 ﻿<#
     .SYNOPSIS
     Returns the items in your Environment PATH variable.
-    Tests and reports the existance of each Path
+    Tests and reports the existance of each Path.  Exists=True if the path exists otherwise false.
     Sorts the items in the PATH variable by file path.
     Optionally Will update the PATH variable with one that is sorted.
 
